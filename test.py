@@ -18,6 +18,10 @@ class TestMergeJson(unittest.TestCase):
             "key3": {
                 "key4": "value4",
                 "key5": "value5"
+            },
+            "key10": {
+                "key101": "value104",
+                "key102": "value105"
             }
         }
         translation_data = {
@@ -25,7 +29,8 @@ class TestMergeJson(unittest.TestCase):
             "obsolete": "obsolete",
             "key3": {
                 "key4": "value14",
-            }
+            },
+            "key10": "str10"
         }
         self.expected_result = {
             "key1": "value3",
@@ -33,8 +38,13 @@ class TestMergeJson(unittest.TestCase):
             "key3": {
                 "key4": "value14",
                 "key5": "value5"
+            },
+            "key10": {
+                "key101": "value104",
+                "key102": "value105"
             }
         }
+
         
         with open(os.path.join(self.examples, "file.json"), "w") as f:
             json.dump(example_data, f)

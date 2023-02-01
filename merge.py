@@ -6,7 +6,10 @@ def update_dict(examples, translations):
     result = {}
     for k, v in examples.items():
         if isinstance(v, dict):
-            result[k] = update_dict(v, translations.get(k, None))
+            if  isinstance(translations.get(k, None), dict):
+                result[k] = update_dict(v, translations.get(k, None))
+            else:
+                result[k] = v
         else:
             result[k] = translations.get(k, v)
     return result
@@ -22,8 +25,12 @@ def merge_json(examples, translations):
             except Exception as e:
                 print(f"Error while reading file {file_path}: {e}")
                 continue
+            
+            destinationdirectory = root.replace(examples, translations)
+            if not os.path.exists(destinationdirectory):
+                os.makedirs(destinationdirectory)
 
-            translations_file = os.path.join(root.replace(examples, translations), file)
+            translations_file = os.path.join(destinationdirectory, file)
             if os.path.exists(translations_file):
                 try:
                     with open(translations_file, "r", encoding="utf8") as f:

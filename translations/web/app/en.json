@@ -12,16 +12,16 @@
                 "empty": "nothing found for your request...",
                 "filters": {
                     "badges": "Badges",
-                    "company_sales": "Company sells",
+                    "company_sales": "Companies sells",
                     "default": "Default",
                     "employeesCount": "Number of employees",
-                    "labels": "Assigned labels",
+                    "labels": "Labels",
                     "location": {
                         "dialog": "Select location",
                         "title": "Location"
                     },
                     "areas": {
-                        "title": "Place of business"
+                        "title": "Region of business"
                     },
                     "participationsCount": "Number of bids",
                     "pools": "Accreditations in my pools",
@@ -34,11 +34,11 @@
                     },
                     "registrationDate": "Registration date",
                     "verified": {
-                        "title": "Verified by ProcureSaas",
+                        "title": "Verified companies",
                         "link": "How to pass the verification"
                     },
                     "accreditations": {
-                        "title": "Companies included in the registers of customers",
+                        "title": "Accredited in customer registers",
                         "link": "More about Registries"
                     }
                 },
@@ -328,7 +328,7 @@
     },
     "cookie": {
         "action": "close",
-        "text": "ProcureSaas.com uses cookies to analyze and personalize your experience."
+        "text": "bidzaar.com uses cookies to analyze and personalize your experience."
     },
     "core": {
         "access_denied": {
@@ -378,7 +378,7 @@
                 "line_1": "I'll help you with work on this platform and also inform you about important events.",
                 "line_2": "If you have any difficulties using the system, then visit"
             },
-            "title": "Hello, I am Bot, your personal assistant!"
+            "title": "Hello, I am BotZaar, your personal assistant!"
         },
         "demo": {
             "soon": "Soon!",
@@ -659,7 +659,7 @@
             "copyright": "e-marketplace © 2018 — 2019",
             "user_agreement": "user agreement"
         },
-        "logo": "ProcureSaas",
+        "logo": "bidzaar",
         "owner": {
             "text": "participate in fair tenders, improve your business reputation and find new customers",
             "title": "for supplier"
@@ -747,10 +747,10 @@
                 "title": "My requests"
             },
             "rfx_manager": {
-                "title": "Company requests"
+                "title": "My company's requests"
             },
             "registries": {
-                "title": "Registries"
+                "title": "My company's registries"
             }
         },
         "participant": {
@@ -758,10 +758,10 @@
                 "title": "Pools"
             },
             "rfx": {
-                "title": "Bids"
+                "title": "My suggestions"
             },
             "registries": {
-                "title": "My registries"
+                "title": "My company's accreditation"
             }
         },
         "pools": "Pool management",
@@ -783,7 +783,7 @@
         "add": {
             "add_company": "find or create company",
             "text": "Join your company as an employee. If your company is not yet registered - register in a few steps.",
-            "title": "Find your company or register on ProcureSaas"
+            "title": "Find your company or register on Bidzaar"
         },
         "welcome": {
             "text": "Let's continue!",
@@ -866,9 +866,9 @@
             "parameters": "Parameters",
             "participants": "Participants",
             "positions": "Goods and services",
-            "questionnaire": "Requirements for participants and conditions of request",
+            "questionnaire": "Non-price request criteria",
             "team": "Users",
-            "nda": "Pre-qualification",
+            "nda": "NDA",
             "registries": "Registries",
             "cancel": "Cancel",
             "submit": "Duplicate"
@@ -993,14 +993,14 @@
                     "header": "Question",
                     "default_question_text": "New question",
                     "default_group_name": "New Section",
-                    "type": "Question type",
+                    "type": "Answer type",
                     "text": "Question text",
                     "required": "Answer is required",
                     "description": "Description",
                     "hidden": {
                         "owner": "The answer is available only to the requester",
                         "participant": "The answer will not be available to other participants.",
-                        "tooltip": "We recommend hiding sensitive or confidential information"
+                        "tooltip": "Vendors will have access to competitor responses to this question. We recommend hiding sensitive or confidential information"
                     }
                 },
                 "actions": {
@@ -1710,10 +1710,10 @@
         },
         "light": {
             "create": {
-                "cancel": "cancel",
-                "header": "new request",
-                "next": "create",
-                "placeholder": "name"
+                "cancel": "Cancel",
+                "header": "New request",
+                "next": "Create",
+                "placeholder": "Name"
             },
             "invite": {
                 "dialog": {
@@ -1726,8 +1726,8 @@
                         "secondary": "You have no purchases  with the Draft or Bid status."
                     },
                     "header": {
-                        "notice": "Your purchases in which the company is not yet participate",
-                        "title": "Invite company to your purchase"
+                        "notice": "Requests in which the company is not yet involved",
+                        "title": "Invitation to Request"
                     },
                     "procedures": {
                         "draft": "Number: {{ value }} • Draft (invitations will be sent after publication)",
@@ -2008,10 +2008,10 @@
                     "reasons": {
                         "0": "The company will not appear in listings and search results, and cannot be invited to participate in a request",
                         "1": "The facts of the company's participation in business processes on the site will be saved, but the mark \"Left the site\" will be added",
-                        "2": "You can resume working with ProcureSaas by re-registering"
+                        "2": "You can resume working with Bidzaar by re-registering"
                     }
                 },
-                "success": "Your personal data has been deleted on ProcureSaas"
+                "success": "Your personal data has been deleted on Bidzaar"
             },
             "actions": {
                 "cancel": "Cancel",
@@ -2197,7 +2197,7 @@
                         "text": {
                             "RUS_FORK": {
                                 "compact": "Get certified and get your status\nESG provider",
-                                "default": "ProcureSaas, together with the National Research University Higher School of Economics, were the first in Russia to develop a methodology for an accessible and quick check of companies for compliance with ESG principles.\nGet certified and become an ESG Supplier"
+                                "default": "Bidzaar, together with the National Research University Higher School of Economics, were the first in Russia to develop a methodology for an accessible and quick check of companies for compliance with ESG principles.\nGet certified and become an ESG Supplier"
                             }
                         }
                     },
@@ -2441,7 +2441,7 @@
             "delete_company_dialog": {
                 "cancel": "cancel",
                 "delete": "delete company",
-                "description": "The company will be removed from the list of companies, but the facts of the company will remain available to other users.\nThe action is reversible, the company can be restored.\nTo restore, contact a technical support specialist.",
+                "description": "The company will be removed from the list of companies, but the facts of the company will remain available to other users.\n\nThe action is reversible, the company can be restored.\n\nTo restore, contact a technical support specialist.",
                 "success_snack": "company is deleted",
                 "title": "Company removal"
             },
@@ -2452,7 +2452,7 @@
                 "tooltip": "Invite for cooperation"
             },
             "verified": {
-                "checked": "Verified by ProcureSaas",
+                "checked": "Verified by Bidzaar",
                 "info": "Verified suppliers are more trusted and more likely to receive orders.",
                 "more": "Learn more",
                 "verified": "Information about the company was verified by the specialists of our service."
@@ -2506,7 +2506,7 @@
         },
         "request_company_verification_dialog": {
             "header": "Request for verification",
-            "title_prefix": "ProcureSaas specialists will check the information specified in",
+            "title_prefix": "Bidzaar specialists will check the information specified in",
             "title_link": "your company profile",
             "title_postfix": ". Make sure this information is correct.",
             "info": "The profile is edited by an employee with the “Company management” permission.",
@@ -2610,7 +2610,7 @@
     "lgn": {
         "confirm_changing": {
             "email_confirmed": "Email confirmed",
-            "info": "Log in to ProcureSaas with your new email address"
+            "info": "Log in to Bidzaar with your new email address"
         }
     },
     "ugr": {
