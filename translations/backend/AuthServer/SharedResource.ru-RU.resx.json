@@ -27,6 +27,5 @@
     "Error.UserNotFound": "Пользователь не найден",
     "Error.WrongPassword": "Введён неверный пароль",
     "Notice.Company": "Регистрация компании — ",
-    "Notice.Step": "на следующем шаге.",
-    "Validation.PaswordSameAsLogin": "Пароль не должен быть таким же, как и идентификатор (имейл) пользователя"
+    "Notice.Step": "на следующем шаге."
 }
