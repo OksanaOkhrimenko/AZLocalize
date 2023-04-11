@@ -2166,8 +2166,8 @@
                             "tooltip": "Add regions of business"
                         },
                         "4": {
-                            "name": "Requisites",
-                            "tooltip": "Specify company requisites"
+                            "name": "Company info",
+                            "tooltip": "Specify company info"
                         },
                         "5": {
                             "name": "Logo",
@@ -2274,10 +2274,10 @@
                     }
                 },
                 "requisites": {
-                    "title": "Requisites",
+                    "title": "Company info",
                     "success": {
-                        "false": "The company requisites will be updated",
-                        "true": "The company requisites will be verified in the near future"
+                        "false": "Company info will be updated",
+                        "true": "Company info will be verified in the near future"
                     }
                 },
                 "activity": {
@@ -2295,11 +2295,11 @@
                             },
                             "participations": {
                                 "title": "Completed",
-                                "tooltip": "Number of bids in which company has participated"
+                                "tooltip": "Number of bids that the company has submitted"
                             },
                             "orders": {
                                 "title": "Orders",
-                                "tooltip": "Number of bids in which the company received orders"
+                                "tooltip": "Number of bids that resulted in orders"
                             }
                         }
                     },
@@ -2325,7 +2325,7 @@
                     "description": "The company is an accredited partner of organizations:"
                 },
                 "registers": {
-                    "title": "Registers",
+                    "title": "Vendor pools",
                     "description": "We invite you to cooperation! Become our accredited supplier in the following areas:"
                 },
                 "documents": {
